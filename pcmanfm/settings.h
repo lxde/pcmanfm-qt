@@ -324,11 +324,19 @@ public:
     bool showWmMenu() const {
         return showWmMenu_;
     }
-
+    
     void setShowWmMenu(bool value) {
         showWmMenu_ = value;
     }
+    
+    bool passWheelToRoot() const {
+        return passWheelToRoot_;
+    }
 
+    void setPassWheelToRoot(bool value) {
+        passWheelToRoot_ = value;
+    }
+    
     bool desktopShowHidden() const {
         return desktopShowHidden_;
     }
@@ -939,6 +947,7 @@ private:
     int desktopIconSize_;
     QStringList desktopShortcuts_;
     bool showWmMenu_;
+    bool passWheelToRoot_;
 
     bool desktopShowHidden_;
     bool desktopHideItems_;

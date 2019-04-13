@@ -176,6 +176,7 @@ private:
     QPixmap wallpaperPixmap_;
     Launcher fileLauncher_;
     bool showWmMenu_;
+    bool passWheelToRoot_;
     bool desktopHideItems_;
 
     int screenNum_;
