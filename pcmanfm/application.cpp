@@ -119,7 +119,7 @@ Application::Application(int& argc, char** argv):
                 initWatch();
             }
             delete lxqtSessionIface;
-            lxqtSessionIface = 0;
+            lxqtSessionIface = nullptr;
         }
     }
     else {
